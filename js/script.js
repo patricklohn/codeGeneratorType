@@ -18,17 +18,17 @@ function generateQrCode(){
         case "qr":
         qrCodeBtn.innerText = "Gerando código...";
         qrCodeImg.src = `http://barcode.orcascan.com/?type=qr&data=${qrCodeInputValue}`;
-        aconrBtn.href = `http://barcode.orcascan.com/?type=qr&data=${qrCodeInputValue}&format=png`;
+        //aconrBtn.href = `http://barcode.orcascan.com/?type=qr&data=${qrCodeInputValue}&format=png`;
         break
         case "code128":
         qrCodeBtn.innerText = "Gerando código...";
         qrCodeImg.src = `http://barcode.orcascan.com/?type=code128&data=${qrCodeInputValue}`;
-        aconrBtn.href = `http://barcode.orcascan.com/?type=code128&data=${qrCodeInputValue}&format=png`;
+        //aconrBtn.href = `http://barcode.orcascan.com/?type=code128&data=${qrCodeInputValue}&format=png`;
         break
         case "ean13":
         qrCodeBtn.innerText = "Gerando código...";
         qrCodeImg.src = `http://barcode.orcascan.com/?type=ean13&data=${qrCodeInputValue}`;
-        aconrBtn.href = `http://barcode.orcascan.com/?type=ean13&data=${qrCodeInputValue}&format=png`;
+        //aconrBtn.href = `http://barcode.orcascan.com/?type=ean13&data=${qrCodeInputValue}&format=png`;
         break
     }
 
