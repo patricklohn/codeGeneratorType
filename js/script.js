@@ -61,3 +61,4 @@ document.addEventListener("keydown",(e)=>{
     generateQrCode();
     }
 })*/
+
